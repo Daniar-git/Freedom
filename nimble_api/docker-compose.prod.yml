@@ -1,0 +1,34 @@
+version: '3.9'
+
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile.prod
+    command: gunicorn --workers=5 --threads=2 nimble.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - .:/usr/src/app/
+      - static:/usr/src/app/static
+    expose:
+      - 8000
+    env_file:
+      - ./.env
+    depends_on:
+      - db
+  db:
+    restart: always
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+  nginx:
+    build: ./nginx
+    volumes:
+      - static:/usr/src/app/static
+    ports:
+      - 80:80
+    depends_on:
+      - web
+volumes:
+  static:

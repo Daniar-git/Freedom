@@ -1,0 +1,295 @@
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: Montserrat;
+  line-height: 1.15;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+}
+
+body.A4 .sheet {
+  width: 210mm;
+  height: 296mm;
+}
+body.A4.landscape .sheet {
+  width: 297mm;
+  height: 209mm;
+}
+
+.sheet.padding-10mm {
+  padding: 10mm;
+}
+.sheet.padding-15mm {
+  padding: 15mm;
+}
+.sheet.padding-20mm {
+  padding: 20mm;
+}
+.sheet.padding-25mm {
+  padding: 25mm;
+}
+
+@media screen {
+  body {
+    background: #e0e0e0;
+  }
+  .sheet {
+    background: white;
+    box-shadow: 0 0.5mm 2mm rgba(0, 0, 0, 0.3);
+    margin: 5mm auto;
+  }
+}
+
+@media print {
+  body.A4.landscape {
+    width: 297mm;
+  }
+  body.A4 {
+    width: 210mm;
+  }
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #f9f9ff;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+th {
+  border-collapse: collapse;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  text-align: left;
+  color: #6e7191;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+td {
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 0.85rem;
+  vertical-align: top;
+  border-top: 1px solid #d6d8d9;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #020f2d;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+small {
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #201a1d;
+}
+
+div, span {
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.th {
+  font-weight: 400;
+  color: #201a1d;
+  text-transform: none;
+}
+
+.badge-mute {
+  padding: 6px;
+  background-color: #f0f2f8;
+  border-radius: 8px;
+  color: #6e7191;
+}
+
+.badge-success {
+  padding: 6px;
+  background-color: #e9fff9;
+  border-radius: 8px;
+  color: #14ae85;
+}
+
+.badge-warning {
+  padding: 6px;
+  background-color: #fff4e6;
+  border-radius: 8px;
+  color: #fa8700;
+}
+
+.badge-danger {
+  padding: 6px;
+  background-color: #ffecf0;
+  border-radius: 8px;
+  color: #ef4056;
+}
+
+.card {
+  border: 1px solid #020f2d;
+  box-sizing: border-box;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 14px;
+}
+
+.card-mute {
+  border: 1px solid #d6d8e7;
+  box-sizing: border-box;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  padding: 10px;
+}
+
+.col1 {
+  width: 25%;
+}
+.col2 {
+  width: 20%;
+}
+
+.col3 {
+  width: 45%;
+}
+
+.mute {
+  color: #6E7191;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.td {
+  border: none;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.aligen-bottom {
+  vertical-align: bottom;
+}
+
+.truncate {
+  display: inline-block;
+  position: relative;
+  width: 163px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mbn {
+  margin-bottom: -1px;
+  margin-top: 7px;
+}

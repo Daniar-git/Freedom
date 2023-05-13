@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 13:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: main/constans.py:6
+msgid "Education"
+msgstr ""
+
+#: main/constans.py:7
+msgid "Music"
+msgstr ""
+
+#: main/constans.py:8
+msgid "Streaming"
+msgstr ""
+
+#: main/constans.py:9
+msgid "Social Media"
+msgstr ""
+
+#: main/constans.py:10
+msgid " Gaming"
+msgstr ""
+
+#: main/constans.py:11
+msgid "Movie"
+msgstr ""
+
+#: main/constans.py:12
+msgid "Travel"
+msgstr ""
+
+#: main/constans.py:15
+msgid "Common Like"
+msgstr ""
+
+#: main/constans.py:16
+msgid "Fan Like"
+msgstr ""
+
+#: main/constans.py:17
+msgid "Value Like"
+msgstr ""
+
+#: main/models.py:16 main/models.py:27 main/models.py:39 main/models.py:50
+msgid "name"
+msgstr ""
+
+#: main/models.py:17 main/models.py:28 main/models.py:61
+msgid "description"
+msgstr ""
+
+#: main/models.py:18 main/models.py:81 main/models.py:88 main/models.py:94
+msgid "user"
+msgstr ""
+
+#: main/models.py:29 main/models.py:40 main/models.py:68
+msgid "channel"
+msgstr ""
+
+#: main/models.py:60
+msgid "title"
+msgstr ""
+
+#: main/models.py:62 main/models.py:80 main/models.py:87 main/models.py:95
+msgid "video"
+msgstr ""
+
+#: main/models.py:63
+msgid "views"
+msgstr ""
+
+#: main/models.py:64
+msgid "category"
+msgstr ""
+
+#: main/models.py:65
+msgid "tags"
+msgstr ""
+
+#: main/models.py:66
+msgid "is private"
+msgstr ""
+
+#: main/models.py:67
+msgid "playlist"
+msgstr ""
+
+#: main/models.py:69
+msgid "common like"
+msgstr ""
+
+#: main/models.py:70
+msgid "value like"
+msgstr ""
+
+#: main/models.py:71
+msgid "fan like"
+msgstr ""
+
+#: main/models.py:97
+msgid "LikeType"
+msgstr ""
+
+#: marketplace/models.py:10
+msgid "nft_user"
+msgstr ""
+
+#: marketplace/models.py:11
+msgid "nft_channel"
+msgstr ""
+
+#: marketplace/models.py:12
+msgid "quanitiy"
+msgstr ""
+
+#: nimble/common/models.py:8
+msgid "Sorting"
+msgstr ""
+
+#: nimble/common/models.py:9
+msgid "We usualy order a model in a client and an admin part."
+msgstr ""
+
+#: nimble/common/models.py:10
+msgid "Created"
+msgstr ""
+
+#: nimble/common/models.py:11
+msgid "Show when an entry was created."
+msgstr ""
+
+#: nimble/common/models.py:12
+msgid "Updated"
+msgstr ""
+
+#: nimble/common/models.py:13
+msgid "Show when an entry was updated"
+msgstr ""
+
+#: nimble/common/models.py:14
+msgid "Public"
+msgstr ""
+
+#: nimble/common/models.py:15
+msgid "This entry is visible or unvisible for a client part or admin part."
+msgstr ""
+
+#: nimble/common/models.py:16
+msgid "Delete status"
+msgstr ""
+
+#: nimble/templates/admin/base.html:39
+msgid "Welcome,"
+msgstr ""
+
+#: nimble/templates/admin/base.html:44
+msgid "View site"
+msgstr ""
+
+#: nimble/templates/admin/base.html:47
+msgid "Rosetta"
+msgstr ""
+
+#: nimble/templates/admin/base.html:50
+msgid "Change password"
+msgstr ""
+
+#: nimble/templates/admin/base.html:52
+msgid "Log out"
+msgstr ""
+
+#: nimble/templates/admin/base.html:63
+#: nimble/templates/rosetta/file-list.html:7
+#: nimble/templates/rosetta/form.html:21
+msgid "Home"
+msgstr ""
+
+#: nimble/templates/rosetta/admin_index.html:14
+msgid "Translations"
+msgstr ""
+
+#: nimble/templates/rosetta/admin_index.html:15
+msgid "Change"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:4
+#: nimble/templates/rosetta/file-list.html:7
+msgid "Language selection"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:8
+msgid ""
+"Couldn't load the specified language file. This usually happens when using "
+"the Encrypted Cookies Session Storage backend on Django 1.4 or higher.<br/"
+">Setting ROSETTA_STORAGE_CLASS = 'rosetta.storage.CacheRosettaStorage' in "
+"your settings file should fix this."
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:14
+msgid "Filter"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:15
+msgid "Project"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:16
+msgid "Third party"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:18
+#: nimble/templates/rosetta/form.html:44
+msgid "All"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:31
+msgid "Application"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:32
+msgid "Progress"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:33
+msgid "Messages"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:34
+msgid "Translated"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:35
+#: nimble/templates/rosetta/form.html:78
+msgid "Fuzzy entries call for revision by the translator."
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:35
+#: nimble/templates/rosetta/form.html:78
+msgid "Fuzzy"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:36
+msgid "Obsolete"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:37
+msgid "File"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:60
+msgid "Nothing to translate!"
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:61
+msgid ""
+"You haven't specified any languages in your settings file, or haven't yet "
+"generated a batch of translation catalogs."
+msgstr ""
+
+#: nimble/templates/rosetta/file-list.html:62
+#, python-format
+msgid ""
+"Please refer to <a href=\"%(i18n_doc_link)s\">Django's I18N documentation</"
+"a> for a guide on how to set up internationalization for your project."
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:8
+msgid "Pick another file"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:9
+msgid "Download this catalog"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:24
+#, python-format
+msgid "Progress: %(percent_translated)s%%"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:26
+msgid "File is read-only: download the file when done editing!"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:37
+#, python-format
+msgid "Translate into %(rosetta_i18n_lang_name)s"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:40
+msgid "Display:"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:41
+msgid "Untranslated only"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:42
+msgid "Translated only"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:43
+msgid "Fuzzy only"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:52
+msgid "Search"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:54
+msgid "Go"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:61
+msgid "Reference language"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:75
+msgid "Original"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:79
+msgid "Occurrences(s)"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:93 nimble/templates/rosetta/form.html:96
+#: nimble/templates/rosetta/form.html:115
+#: nimble/templates/rosetta/form.html:118
+msgid "Context hint"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:125
+msgid "suggest"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:136
+#, python-format
+msgid "%(more_count)s more"
+msgid_plural "%(more_count)s more"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: nimble/templates/rosetta/form.html:148
+msgid "Save and translate next block"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:152
+msgid "Skip to page:"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:165
+msgid "Displaying:"
+msgstr ""
+
+#: nimble/templates/rosetta/form.html:169
+#, python-format
+msgid "%(hits)s/%(message_number)s message"
+msgid_plural "%(hits)s/%(message_number)s messages"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: nimble/user/admin.py:33
+msgid "Extra fields"
+msgstr ""
+
+#: nimble/user/constants.py:6
+msgid "Administrator"
+msgstr ""
+
+#: nimble/user/constants.py:7
+msgid "Client"
+msgstr ""
+
+#: nimble/user/constants.py:11
+msgid "Creat Channel"
+msgstr ""
+
+#: nimble/user/constants.py:12
+msgid "Change Channel"
+msgstr ""
+
+#: nimble/user/constants.py:13
+msgid "User login"
+msgstr ""
+
+#: nimble/user/constants.py:14
+msgid "User logout"
+msgstr ""
+
+#: nimble/user/constants.py:15
+msgid "User reseted password"
+msgstr ""
+
+#: nimble/user/constants.py:16
+msgid "User deleted channel"
+msgstr ""
+
+#: nimble/user/constants.py:17
+msgid "ACTION"
+msgstr ""
+
+#: nimble/user/models.py:19
+msgid "AccountType"
+msgstr ""
+
+#: nimble/user/models.py:23
+msgid "Avatar"
+msgstr ""
+
+#: nimble/user/models.py:24
+msgid "Activated date"
+msgstr ""
+
+#: nimble/user/models.py:25
+msgid "Address of wallet"
+msgstr ""
+
+#: nimble/user/models.py:32
+msgid "User"
+msgstr ""
+
+#: nimble/user/models.py:33
+msgid "Users"
+msgstr ""
+
+#: nimble/user/models.py:38
+msgid "ActionType"
+msgstr ""
+
+#: nimble/user/models.py:47
+msgid "UserAction"
+msgstr ""
+
+#: nimble/user/models.py:48
+msgid "UserActions"
+msgstr ""
+
+#: nimble/user/serializers.py:94
+msgid "System error contact support please"
+msgstr ""
+
+#: nimble/utils/admin_inline/admin.py:258
+#, python-format
+msgid "Add %s"
+msgstr ""
+
+#: nimble/utils/admin_inline/admin.py:284
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr ""
+
+#: nimble/utils/admin_inline/admin.py:362
+#, python-format
+msgid "Change %s"
+msgstr ""
+
+#: nimble/utils/drf_errors/settings.py:18
+msgid "Validation Failed"
+msgstr ""
